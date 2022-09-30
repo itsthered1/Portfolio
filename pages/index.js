@@ -11,7 +11,7 @@ export default function Home() {
 
     <body class="center">
       <h1>
-        <Link href="https://instagra.com/anerdandacamera">Photography</Link>
+        <Link href="https://instagram.com/anerdandacamera">Photography</Link>
         <br></br>
         <Link href="https://github.com/itsthered1">Programming</Link>
         <br></br>
