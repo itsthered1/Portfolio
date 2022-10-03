@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <header>
-        <h1><Link href="/">claudio rojas</Link></h1>
+      <h1 class="typewriter"><a href="/">claudio rojas</a></h1>
     </header>
 
     <body class="center">
@@ -14,7 +14,6 @@ export default function Home() {
         Under Construction...
       </p1>
     </body>
-
     </>
   );
 }
