@@ -6,19 +6,20 @@ export default function Home() {
   return (
     <>
     <header>
-      <h1><Link href="/">claudio rojas</Link></h1>
+      <h1 class="underline"><Link href="/">claudio rojas</Link></h1>
     </header>
 
-    <body class="center">
+    <div class="center">
       <h1>
-        <Link href="https://instagram.com/anerdandacamera">Photography</Link>
+        <a href="https://instagram.com/anerdandacamera" class="underline">Photography</a>
         <br></br>
-        <Link href="https://github.com/itsthered1">Programming</Link>
+        <a href="https://github.com/itsthered1" class="underline">Programming</a>
         <br></br>
-        <Link href="/about">About</Link>
+        <a href="https://albumoftheyear.org/user/mrclaudio" class="underline">Music Reviews</a>
+        <br></br>
+        <a href="/about" class="underline">About</a>
       </h1>
-    </body>
-
+    </div>
     </>
   );
 }

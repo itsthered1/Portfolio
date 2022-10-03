@@ -9,7 +9,7 @@ export default function Home() {
         <h1><Link href="/">claudio rojas</Link></h1>
     </header>
 
-    <body class="center">
+    <body class="about">
       <p1>
         Under Construction...
       </p1>
