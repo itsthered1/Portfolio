@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <header>
-        <h1><Link href="/">claudio rojas</Link></h1>
+        <h1><a href="/">claudio rojas</a></h1>
     </header>
 
     <body class="about">
