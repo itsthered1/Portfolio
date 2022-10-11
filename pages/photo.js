@@ -10,9 +10,7 @@ export default function Home() {
     </header>
 
     <body class="center">
-      <p1>
-        Under Construction...
-      </p1>
+      <p1 class="paragraph">Under Construction...</p1>
     </body>
     </>
   );

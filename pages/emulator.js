@@ -10,7 +10,7 @@ export default function Emulator() {
     </header>
 
     <body class="center">
-      <p1>Upload a ROM...</p1>
+      <p1 class="paragraph">Upload a ROM...</p1>
     </body>
      
    </> 

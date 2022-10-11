@@ -9,8 +9,8 @@ export default function Home() {
       <h1 class="typewriter"><a href="/">claudio rojas</a></h1>
     </header>
 
-    <body class="center, paragraph">
-      <p1>Under Construction...</p1>
+    <body class="center">
+      <p1 class="paragraph">Under Construction...</p1>
     </body>
     </>
   );
