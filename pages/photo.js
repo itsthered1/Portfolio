@@ -1,17 +1,32 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Layout from '../components/layout'
+import Head from "next/head";
+import Link from "next/link";
+import { Stack, HStack, VStack, Image, Grid, GridItem } from "@chakra-ui/react";
+import Layout from "../components/layout";
 
-export default function Home() {
+export default function Photo() {
   return (
-    <>
-    <header>
-      <h1 class="typewriter"><a href="/">claudio rojas</a></h1>
-    </header>
-
-    <body class="center">
-      <p1 class="paragraph">Under Construction...</p1>
-    </body>
-    </>
+    <div>
+      <Grid
+        h="100vh"
+        autoRows="repeat(2, 1fr)"
+        autoColumns="repeat(5, 1fr)"
+        gap={4}
+      >
+        <GridItem
+          rowSpan={2}
+          bgImage="https://hazim.tech/logo.png"
+          bgRepeat="no-repeat"
+          bgSize="cover"
+          bgPos="center"
+        />
+        <GridItem colSpan={2} />
+        <GridItem colSpan={2} />
+        <GridItem colSpan={4} />
+        <GridItem rowSpan={2} />
+        <GridItem colSpan={2} />
+        <GridItem colSpan={2} />
+        <GridItem colSpan={4} bg="gray" />
+      </Grid>
+    </div>
   );
 }
